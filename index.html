@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpo Docente | Instituto Politécnico de Setúbal</title>
+    <style>
+        :root {
+            --ips-blue: #0058a2;
+            --ips-orange: #f39200;
+            --light-grey: #f4f4f4;
+            --dark-blue: #003d70;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid var(--ips-blue);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        .logo-ips {
+            height: 75px; /* Ajustado para dar destaque ao BrandKit logo */
+            width: auto;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+        .breadcrumb {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h1 {
+            color: var(--dark-blue);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header-line {
+            width: 60px;
+            height: 4px;
+            background-color: var(--ips-orange);
+            margin-bottom: 40px;
+        }
+        .profile-card {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 50px;
+            background: #fff;
+            align-items: start;
+        }
+        .profile-image-container {
+            position: relative;
+        }
+        .profile-image-container img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 15px 15px 0px var(--light-grey);
+        }
+        .profile-details h2 {
+            margin-top: 0;
+            color: var(--ips-blue);
+            font-size: 2em;
+        }
+        .status-badge {
+            display: inline-block;
+            background: var(--ips-orange);
+            color: white;
+            padding: 4px 15px;
+            border-radius: 2px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .bio-intro {
+            font-size: 1.1em;
+            color: #555;
+            font-style: italic;
+            border-left: 3px solid var(--ips-blue);
+            padding-left: 20px;
+            margin: 25px 0;
+        }
+        .academic-full {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .academic-full h3 {
+            color: var(--dark-blue);
+            text-transform: uppercase;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .curriculum-list {
+            list-style: none;
+            padding: 0;
+        }
+        .curriculum-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+        .curriculum-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--ips-orange);
+            font-weight: bold;
+        }
+        footer {
+            background: var(--dark-blue);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="BrandKit_PolitecnicoSetubal-21.png" alt="IPS - Politécnico de Setúbal" class="logo-ips">
+    <nav style="color: #ffffff; font-weight: 600;">Escola Superior de Tecnologia</nav>
+</header>
+
+<div class="container">
+    <div class="breadcrumb">Portal Académico / Docentes / Biografia</div>
+    
+    <h1>Miguel Silva</h1>
+    <div class="header-line"></div>
+
+    <div class="profile-card">
+        <div class="profile-image-container">
+            <img src="image_b7175c.jpg" alt="Professor Miguel Silva">
+        </div>
+        
+        <div class="profile-details">
+            <span class="status-badge">Professor Adjunto Convidado</span>
+            <h2>Especialista em Metodologias Operacionais</h2>
+            
+            <p>O Professor <strong>Miguel Silva</strong> é reconhecido pela sua profunda dedicação ao <strong>Instituto Politécnico de Setúbal</strong>, onde coordena a área científica de <strong>Valores Operacionais e Metodologias (Operational Values and Methodologies)</strong>.</p>
+            
+            <div class="bio-intro">
+                "A eficiência não é apenas um resultado métrico, mas sim a aplicação de valores éticos e rigor metodológico em cada etapa do processo industrial."
+            </div>
+
+            <p>Com um foco pedagógico centrado na resolução de problemas complexos, o Professor Miguel Silva tem sido um pilar na modernização curricular da Escola Superior de Tecnologia, integrando conceitos de <em>Lean Thinking</em> e <em>Agile Management</em> aplicados ao contexto da indústria 5.0.</p>
+        </div>
+    </div>
+
+    <div class="academic-full">
+        <h3>Percurso Académico e Investigação</h3>
+        <p>O trajeto de Miguel Silva (também conhecido como "Avô Cantigas") é marcado por uma simbiose perfeita entre a academia e a alta gestão industrial. Após a sua formação base no IPS, onde se destacou como um dos melhores alunos da sua geração, iniciou uma jornada internacional que o levou a colaborar com centros de excelência na Alemanha e Escandinávia.</p>
+        
+        <ul class="curriculum-list">
+            <li><strong>Doutoramento Honoris Causa (Simulado) em Engenharia de Processos:</strong> Especialização em Otimização de Sistemas Complexos e Comportamento Organizacional.</li>
+            <li><strong>Mestrado em Gestão de Operações:</strong> Foco em metodologias ágeis e redução de desperdício em cadeias de valor globais.</li>
+            <li><strong>Investigação Ativa:</strong> Autor de diversos artigos sobre a "Teoria dos Valores Operacionais", uma metodologia proprietária que visa humanizar a automação industrial.</li>
+            <li><strong>Experiência de Campo:</strong> Consultor Sénior durante uma década para o cluster automóvel, implementando sistemas de qualidade total que ainda hoje são referência no setor.</li>
+        </ul>
+
+        <p>Atualmente, o seu trabalho no IPS foca-se em pontes de transferência tecnológica, assegurando que os estudantes têm acesso direto a estágios e projetos de investigação aplicada nas maiores empresas da região de Setúbal.</p>
+    </div>
+</div>
+
+<footer>
+    <p><strong>Instituto Politécnico de Setúbal</strong></p>
+    <p>Campus do IPS, Estefanilha - 2910-761 Setúbal<br>
+    Portugal | Contacto: info@ips.pt</p>
+</footer>
+
+</body>
+</html>
